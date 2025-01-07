@@ -31,11 +31,23 @@ app.use(express.urlencoded({ extended: false }));
 app.use(morgan('dev'));
 
 // Database Connection
-await connectDB();
+if (process.env.NODE_ENV !== 'test') {
+  (async () => {
+    try {
+      await connectDB();
+    } catch (error) {
+      console.error('Error connecting to database:', error.message);
+    }
+  })();
+};
 
 // Global error middleware
 app.use('/api', appRoutes);
 app.use(errorMiddleware);
+
+app.get('/', (_, res) => {
+  res.send('Welcome to our Chat API');
+});
 
 // Not found request
 app.all('*', (req, res, _) => {

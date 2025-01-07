@@ -34,7 +34,8 @@ export const signup = catchAsync(async (req, res, next) => {
   try {
     const token = generateToken(newUser._id);
 
-    res.status(201).json({
+    res.status(201);
+    res.json({
       status: 'success',
       token,
       user: {

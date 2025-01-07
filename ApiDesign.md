@@ -24,12 +24,12 @@ Develop a real-time chat application where users can join different rooms and ex
 ## **1. Authentication API**
 
 ### **1.1 Register User**
-- **Endpoint:** `POST /api/auth/register`
+- **Endpoint:** `POST /api/v1/auth/signup`
 - **Description:** Register a new user.
 - **Request Body:**
   ```json
   {
-    "username": "string",
+    "name": "string",
     "email": "string",
     "password": "string"
   }
@@ -43,7 +43,7 @@ Develop a real-time chat application where users can join different rooms and ex
   ```
 
 ### **1.2 Login User**
-- **Endpoint:** `POST /api/auth/login`
+- **Endpoint:** `POST /api/v1/auth/login`
 - **Description:** Authenticate and login a user.
 - **Request Body:**
   ```json
@@ -61,7 +61,7 @@ Develop a real-time chat application where users can join different rooms and ex
   ```
 
 ### **1.3 Logout User**
-- **Endpoint:** `POST /api/auth/logout`
+- **Endpoint:** `POST /api/v1/auth/logout`
 - **Description:** Logout a user.
 - **Response:**
   ```json
@@ -75,7 +75,7 @@ Develop a real-time chat application where users can join different rooms and ex
 ## **2. User Management API**
 
 ### **2.1 Get User Profile**
-- **Endpoint:** `GET /api/users/:id`
+- **Endpoint:** `GET /api/v1/users/:id`
 - **Description:** Retrieve user profile by ID.
 - **Response:**
   ```json
@@ -89,7 +89,7 @@ Develop a real-time chat application where users can join different rooms and ex
   ```
 
 ### **2.2 Update User Profile**
-- **Endpoint:** `PUT /api/users/:id`
+- **Endpoint:** `PUT /api/v1/users/:id`
 - **Description:** Update user profile.
 - **Request Body:**
   ```json
@@ -111,7 +111,7 @@ Develop a real-time chat application where users can join different rooms and ex
 ## **3. Chat Room Management API**
 
 ### **3.1 Get Available Chat Rooms**
-- **Endpoint:** `GET /api/chat/rooms`
+- **Endpoint:** `GET /api/v1/chat/rooms`
 - **Description:** Fetch a list of available chat rooms.
 - **Response:**
   ```json
@@ -124,7 +124,7 @@ Develop a real-time chat application where users can join different rooms and ex
   ```
 
 ### **3.2 Create a Chat Room**
-- **Endpoint:** `POST /api/chat/rooms`
+- **Endpoint:** `POST /api/v1/chat/rooms`
 - **Description:** Create a new chat room.
 - **Request Body:**
   ```json
@@ -141,7 +141,7 @@ Develop a real-time chat application where users can join different rooms and ex
   ```
 
 ### **3.3 Get Chat History**
-- **Endpoint:** `GET /api/chat/history/:roomId`
+- **Endpoint:** `GET /api/v1/chat/history/:roomId`
 - **Description:** Fetch chat history for a specific room.
 - **Response:**
   ```json
