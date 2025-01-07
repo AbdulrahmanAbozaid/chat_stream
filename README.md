@@ -1,2 +1,2 @@
-# chat_stream_backend
-Welcome to our portfolio project
+# ChatStream
+A web app for chatting and more!

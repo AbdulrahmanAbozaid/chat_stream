@@ -4,7 +4,7 @@
     <metrics statements="1309" coveredstatements="564" conditionals="16" coveredconditionals="9" methods="11" coveredmethods="4" elements="1336" coveredelements="577" complexity="0" loc="1309" ncloc="1309" packages="9" files="24" classes="24"/>
     <package name="config">
       <metrics statements="57" coveredstatements="49" conditionals="3" coveredconditionals="1" methods="0" coveredmethods="0"/>
-      <file name="server.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/config/server.js">
+      <file name="server.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/config/server.js">
         <metrics statements="57" coveredstatements="49" conditionals="3" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -67,7 +67,7 @@
     </package>
     <package name="controllers">
       <metrics statements="513" coveredstatements="131" conditionals="3" coveredconditionals="1" methods="0" coveredmethods="0"/>
-      <file name="authController.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/controllers/authController.js">
+      <file name="authController.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/controllers/authController.js">
         <metrics statements="130" coveredstatements="41" conditionals="3" coveredconditionals="1" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -200,7 +200,7 @@
         <line num="129" count="0" type="stmt"/>
         <line num="130" count="1" type="stmt"/>
       </file>
-      <file name="messageController.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/controllers/messageController.js">
+      <file name="messageController.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/controllers/messageController.js">
         <metrics statements="44" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -247,7 +247,7 @@
         <line num="43" count="0" type="stmt"/>
         <line num="44" count="1" type="stmt"/>
       </file>
-      <file name="roomController.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/controllers/roomController.js">
+      <file name="roomController.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/controllers/roomController.js">
         <metrics statements="199" coveredstatements="48" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -449,7 +449,7 @@
         <line num="198" count="0" type="stmt"/>
         <line num="199" count="1" type="stmt"/>
       </file>
-      <file name="userController.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/controllers/userController.js">
+      <file name="userController.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/controllers/userController.js">
         <metrics statements="140" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -595,7 +595,7 @@
     </package>
     <package name="middlewares">
       <metrics statements="75" coveredstatements="31" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="authMiddleware.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/middlewares/authMiddleware.js">
+      <file name="authMiddleware.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/middlewares/authMiddleware.js">
         <metrics statements="29" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -627,7 +627,7 @@
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
       </file>
-      <file name="errorHandler.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/middlewares/errorHandler.js">
+      <file name="errorHandler.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/middlewares/errorHandler.js">
         <metrics statements="29" coveredstatements="10" conditionals="3" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
@@ -659,7 +659,7 @@
         <line num="28" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
       </file>
-      <file name="validateMiddleware.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/middlewares/validateMiddleware.js">
+      <file name="validateMiddleware.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/middlewares/validateMiddleware.js">
         <metrics statements="17" coveredstatements="14" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -682,7 +682,7 @@
     </package>
     <package name="models.message">
       <metrics statements="41" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="MessageSchema.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/models/message/MessageSchema.js">
+      <file name="MessageSchema.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/models/message/MessageSchema.js">
         <metrics statements="41" coveredstatements="41" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -729,7 +729,7 @@
     </package>
     <package name="models.room">
       <metrics statements="45" coveredstatements="45" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="RoomSchema.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/models/room/RoomSchema.js">
+      <file name="RoomSchema.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/models/room/RoomSchema.js">
         <metrics statements="45" coveredstatements="45" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -780,7 +780,7 @@
     </package>
     <package name="models.user">
       <metrics statements="87" coveredstatements="75" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="UserSchema.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/models/user/UserSchema.js">
+      <file name="UserSchema.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/models/user/UserSchema.js">
         <metrics statements="87" coveredstatements="75" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -873,7 +873,7 @@
     </package>
     <package name="routes">
       <metrics statements="142" coveredstatements="142" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="authRoutes.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/routes/authRoutes.js">
+      <file name="authRoutes.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/routes/authRoutes.js">
         <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -903,7 +903,7 @@
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
       </file>
-      <file name="index.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/routes/index.js">
+      <file name="index.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/routes/index.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -913,7 +913,7 @@
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
-      <file name="messageRoutes.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/routes/messageRoutes.js">
+      <file name="messageRoutes.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/routes/messageRoutes.js">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -932,7 +932,7 @@
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="roomRoutes.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/routes/roomRoutes.js">
+      <file name="roomRoutes.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/routes/roomRoutes.js">
         <metrics statements="39" coveredstatements="39" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -974,7 +974,7 @@
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
       </file>
-      <file name="userRoutes.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/routes/userRoutes.js">
+      <file name="userRoutes.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/routes/userRoutes.js">
         <metrics statements="40" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1017,7 +1017,7 @@
         <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
       </file>
-      <file name="v1.api.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/routes/v1.api.js">
+      <file name="v1.api.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/routes/v1.api.js">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1036,7 +1036,7 @@
     </package>
     <package name="services.socket">
       <metrics statements="300" coveredstatements="24" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="1"/>
-      <file name="roomUtils.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/services/socket/roomUtils.js">
+      <file name="roomUtils.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/services/socket/roomUtils.js">
         <metrics statements="16" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1055,7 +1055,7 @@
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
       </file>
-      <file name="socketAuthMiddleware.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/services/socket/socketAuthMiddleware.js">
+      <file name="socketAuthMiddleware.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/services/socket/socketAuthMiddleware.js">
         <metrics statements="28" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1086,7 +1086,7 @@
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
       </file>
-      <file name="socketHandler.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/services/socket/socketHandler.js">
+      <file name="socketHandler.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/services/socket/socketHandler.js">
         <metrics statements="256" coveredstatements="14" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1348,7 +1348,7 @@
     </package>
     <package name="utils">
       <metrics statements="49" coveredstatements="26" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="1"/>
-      <file name="appError.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/utils/appError.js">
+      <file name="appError.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/utils/appError.js">
         <metrics statements="12" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1363,7 +1363,7 @@
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
-      <file name="catchAsync.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/utils/catchAsync.js">
+      <file name="catchAsync.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/utils/catchAsync.js">
         <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -1374,7 +1374,7 @@
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
-      <file name="jwt.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/utils/jwt.js">
+      <file name="jwt.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/utils/jwt.js">
         <metrics statements="17" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1394,7 +1394,7 @@
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
       </file>
-      <file name="roleCheck.js" path="/home/youssef/Desktop/.github/chat_stream_backend/src/utils/roleCheck.js">
+      <file name="roleCheck.js" path="/home/youssef/Desktop/.github/chatstream_backend/src/utils/roleCheck.js">
         <metrics statements="12" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
